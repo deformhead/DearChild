@@ -1,0 +1,8 @@
+{
+    "placeholder-idle": {
+
+        "type": "datasets",
+        "scope": "common",
+        "name": "spritesheet-placeholder-idle"
+    }
+}

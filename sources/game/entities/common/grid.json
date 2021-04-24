@@ -1,0 +1,24 @@
+{
+    "name": "grid",
+    "components": [
+
+        {
+            "name": "cameras"
+        },
+        {
+            "name": "images",
+            "parameters": {
+
+                "grid-idle": {
+
+                    "type": "datasets",
+                    "scope": "common",
+                    "name": "spritesheet-grid-idle"
+                }
+            }
+        },
+        {
+            "name": "position"
+        }
+    ]
+}

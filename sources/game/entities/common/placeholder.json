@@ -1,0 +1,41 @@
+{
+    "name": "placeholder",
+    "components": [
+
+        {
+            "name": "cameras",
+            "parameters": [
+
+                {
+                    "$camera": {
+
+                        "type": "$",
+                        "name": "camera"
+                    },
+                    "opacity": 1
+                }
+            ]
+        },
+        {
+            "name": "images",
+            "parameters": {
+
+                "placeholder-idle": {
+
+                    "type": "datasets",
+                    "scope": "common",
+                    "name": "spritesheet-placeholder-idle"
+                }
+            }
+        },
+        {
+            "name": "position",
+            "parameters": {
+
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        }
+    ]
+}

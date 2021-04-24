@@ -1,0 +1,8 @@
+{
+    "placeholder": {
+
+        "type": "datasets",
+        "scope": "common",
+        "name": "force-placeholder"
+    }
+}
