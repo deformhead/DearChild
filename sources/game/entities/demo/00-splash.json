@@ -1,0 +1,24 @@
+{
+    "name": "00-splash",
+    "components": [
+
+        {
+            "name": "cameras"
+        },
+        {
+            "name": "images",
+            "parameters": {
+
+                "00-splash": {
+
+                    "type": "datasets",
+                    "scope": "demo",
+                    "name": "spritesheet-00-splash"
+                }
+            }
+        },
+        {
+            "name": "position"
+        }
+    ]
+}

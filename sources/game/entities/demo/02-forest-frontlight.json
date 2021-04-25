@@ -1,0 +1,24 @@
+{
+    "name": "02-forest-frontlight",
+    "components": [
+
+        {
+            "name": "cameras"
+        },
+        {
+            "name": "images",
+            "parameters": {
+
+                "02-forest-frontlight": {
+
+                    "type": "datasets",
+                    "scope": "demo",
+                    "name": "spritesheet-02-forest-frontlight"
+                }
+            }
+        },
+        {
+            "name": "position"
+        }
+    ]
+}

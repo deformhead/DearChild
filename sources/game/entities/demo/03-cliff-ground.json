@@ -1,0 +1,24 @@
+{
+    "name": "03-cliff-ground",
+    "components": [
+
+        {
+            "name": "cameras"
+        },
+        {
+            "name": "images",
+            "parameters": {
+
+                "03-cliff-ground": {
+
+                    "type": "datasets",
+                    "scope": "demo",
+                    "name": "spritesheet-03-cliff-ground"
+                }
+            }
+        },
+        {
+            "name": "position"
+        }
+    ]
+}

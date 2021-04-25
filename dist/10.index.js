@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{167:function(E){E.exports=["CLICK_LEFT","CLICK_RIGHT","KEY_M","KEY_O","KEY_P","KEY_UP","KEY_DOWN","KEY_RIGHT","KEY_LEFT","KEY_CTRL","KEY_DELETE","KEY_ENTER","KEY_ESC","KEY_SHIFT","KEY_SPACE","KEY_TAB","MOVE"]}}]);
+//# sourceMappingURL=10.index.js.map

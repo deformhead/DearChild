@@ -1,21 +1,44 @@
 export default function (entity, input) {
 
-    const stateComponent = entity.get('state');
+    entity.get('images').character = {
 
-    stateComponent.changes.push({
+        "type": "datasets",
+        "scope": "demo",
+        "name": "spritesheet-character-run"
+    };
 
-        'before': {
+    entity.get('forces').run = {
 
-            'RIGHT': stateComponent.state['RIGHT'],
-            'LEFT': stateComponent.state['LEFT']
-        },
-        'after': {
+        'type': 'datasets',
+        'scope': 'demo',
+        'name': 'force-character'
+    };
 
-            'RIGHT': 1,
-            'LEFT': 0
-        }
-    });
+    if (typeof this.$.breathe !== 'undefined') {
 
-    stateComponent.state['RIGHT'] = 1;
-    stateComponent.state['LEFT'] = 0;
+        this.$.breathe.pause();
+        delete this.$.breathe;
+    }
+
+    this.$.breathe = this.assets.sounds.demo['breathe']();
+    this.$.breathe.loop = true;
+    this.$.breathe.play();
+
+    if (typeof this.$.run !== 'undefined') {
+
+        this.$.run.pause();
+        delete this.$.run;
+    }
+
+    this.$.run = this.assets.sounds.demo['run']();
+    this.$.run.loop = true;
+    this.$.run.play();
+
+    if (typeof this.$.background === 'undefined') {
+
+        this.$.background = this.assets.sounds.demo['background']();
+        this.$.background.loop = true;
+        this.$.background.play();
+        console.log('plop')
+    }
 };

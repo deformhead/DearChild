@@ -1,0 +1,24 @@
+{
+    "name": "02-forest-backlight",
+    "components": [
+
+        {
+            "name": "cameras"
+        },
+        {
+            "name": "images",
+            "parameters": {
+
+                "02-forest-backlight": {
+
+                    "type": "datasets",
+                    "scope": "demo",
+                    "name": "spritesheet-02-forest-backlight"
+                }
+            }
+        },
+        {
+            "name": "position"
+        }
+    ]
+}

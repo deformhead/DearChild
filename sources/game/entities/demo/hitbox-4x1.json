@@ -1,0 +1,24 @@
+{
+    "name": "hitbox-4x1",
+    "components": [
+
+        {
+            "name": "cameras"
+        },
+        {
+            "name": "hitbox",
+            "parameters": {
+
+                "x": 0,
+                "y": 0,
+                "width": 128,
+                "height": 32,
+                "type": "top",
+                "triggers": []
+            }
+        },
+        {
+            "name": "position"
+        }
+    ]
+}

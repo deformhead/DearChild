@@ -1,0 +1,36 @@
+{
+    "name": "01-chalet-ground",
+    "components": [
+
+        {
+            "name": "cameras"
+        },
+        {
+            "name": "hitbox",
+            "parameters": {
+
+                "x": 0,
+                "y": 80,
+                "width": 960,
+                "height": 32,
+                "type": "top",
+                "triggers": []
+            }
+        },
+        {
+            "name": "images",
+            "parameters": {
+
+                "01-chalet-ground": {
+
+                    "type": "datasets",
+                    "scope": "demo",
+                    "name": "spritesheet-01-chalet-ground"
+                }
+            }
+        },
+        {
+            "name": "position"
+        }
+    ]
+}

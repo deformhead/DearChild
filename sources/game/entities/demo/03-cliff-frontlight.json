@@ -1,0 +1,24 @@
+{
+    "name": "03-cliff-frontlight",
+    "components": [
+
+        {
+            "name": "cameras"
+        },
+        {
+            "name": "images",
+            "parameters": {
+
+                "03-cliff-frontlight": {
+
+                    "type": "datasets",
+                    "scope": "demo",
+                    "name": "spritesheet-03-cliff-frontlight"
+                }
+            }
+        },
+        {
+            "name": "position"
+        }
+    ]
+}

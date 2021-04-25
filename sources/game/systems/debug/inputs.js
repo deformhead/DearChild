@@ -53,62 +53,6 @@ function inputs(entities) {
             }
 
             if (input.type === 'KEYBOARD'
-            && input.action === 'KEY_UP'
-            && input.state === 'DOWN') {
-
-                const x = this.$.camera.position.x();
-                const y = this.$.camera.position.y() - 16;
-
-                this.$.camera.look(
-
-                    () => x,
-                    () => y
-                );
-            }
-
-            if (input.type === 'KEYBOARD'
-            && input.action === 'KEY_RIGHT'
-            && input.state === 'DOWN') {
-
-                const x = this.$.camera.position.x() + 16;
-                const y = this.$.camera.position.y();
-
-                this.$.camera.look(
-
-                    () => x,
-                    () => y
-                );
-            }
-
-            if (input.type === 'KEYBOARD'
-            && input.action === 'KEY_DOWN'
-            && input.state === 'DOWN') {
-
-                const x = this.$.camera.position.x();
-                const y = this.$.camera.position.y() + 16;
-
-                this.$.camera.look(
-
-                    () => x,
-                    () => y
-                );
-            }
-
-            if (input.type === 'KEYBOARD'
-            && input.action === 'KEY_LEFT'
-            && input.state === 'DOWN') {
-
-                const x = this.$.camera.position.x() - 16;
-                const y = this.$.camera.position.y();
-
-                this.$.camera.look(
-
-                    () => x,
-                    () => y
-                );
-            }
-
-            if (input.type === 'KEYBOARD'
             && input.action === 'KEY_CTRL'
             && input.state === 'DOWN') {
 

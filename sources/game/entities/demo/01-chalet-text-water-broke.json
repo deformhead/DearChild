@@ -1,0 +1,55 @@
+{
+    "name": "01-chalet-text-water-broke",
+    "components": [
+
+        {
+            "name": "cameras",
+            "parameters": [
+
+                {
+                    "$camera": {
+
+                        "type": "$",
+                        "name": "interface"
+                    },
+                    "opacity": 1
+                }
+            ]
+        },
+        {
+            "name": "fade"
+        },
+        {
+            "name": "position",
+            "parameters": {
+
+                "x": 0,
+                "y": 0,
+                "z": 3
+            }
+        },
+        {
+            "name": "text",
+            "parameters": {
+
+                "$font": {
+
+                    "type": "datasets",
+                    "scope": "common",
+                    "name": "font-theatre-white-6x10"
+                },
+                "anchor": {
+
+                    "horizontal": "center",
+                    "vertical": "center"
+                },
+                "destination": [0, 0, 0, 6, 10],
+                "lines": [
+
+                    "Her: \"The BABY is coming!\""
+                ],
+                "opacity": 1
+            }
+        }
+    ]
+}

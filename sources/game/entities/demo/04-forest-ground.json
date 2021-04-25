@@ -1,0 +1,36 @@
+{
+    "name": "04-forest-ground",
+    "components": [
+
+        {
+            "name": "cameras"
+        },
+        {
+            "name": "hitbox",
+            "parameters": {
+
+                "x": 0,
+                "y": 80,
+                "width": 480,
+                "height": 32,
+                "type": "top",
+                "triggers": []
+            }
+        },
+        {
+            "name": "images",
+            "parameters": {
+
+                "04-forest-ground": {
+
+                    "type": "datasets",
+                    "scope": "demo",
+                    "name": "spritesheet-04-forest-ground"
+                }
+            }
+        },
+        {
+            "name": "position"
+        }
+    ]
+}

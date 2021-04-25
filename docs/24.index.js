@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{181:function(e){e.exports={$source:{type:"images",scope:"demo",name:"04-forest-ground-480x320"},frames:[[0,0,480,640]],frame:0,framerate:8,destination:[0,0,-1,480,320],opacity:1,elapsed:0}}}]);
+//# sourceMappingURL=24.index.js.map

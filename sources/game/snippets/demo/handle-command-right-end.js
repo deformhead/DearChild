@@ -1,18 +1,23 @@
 export default function (entity, input) {
 
-    const stateComponent = entity.get('state');
+    entity.get('images').character = {
 
-    stateComponent.changes.push({
+        "type": "datasets",
+        "scope": "demo",
+        "name": "spritesheet-character-idle"
+    };
 
-        'before': {
+    delete entity.get('forces').run;
 
-            'RIGHT': stateComponent.state['RIGHT']
-        },
-        'after': {
+    if (typeof this.$.breathe !== 'undefined') {
 
-            'RIGHT': 0
-        }
-    });
+        this.$.breathe.pause();
+        delete this.$.breathe;
+    }
 
-    stateComponent.state['RIGHT'] = 0;
+    if (typeof this.$.run !== 'undefined') {
+
+        this.$.run.pause();
+        delete this.$.run;
+    }
 };

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{178:function(e){e.exports={$source:{type:"images",scope:"demo",name:"03-cliff-frontlight-480x640"},frames:[[0,0,480,640],[1,0,480,640]],frame:0,framerate:8,destination:[0,160,0,480,640],opacity:1,elapsed:0}}}]);
+//# sourceMappingURL=21.index.js.map

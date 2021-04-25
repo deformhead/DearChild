@@ -1,19 +1,14 @@
 {
-    "x": 0,
-    "y": 800,
-    "duration": 800,
+    "x": 32,
+    "y": 0,
+    "duration": 240,
     "$easing": {
 
         "type": "snippets",
         "scope": "common",
-        "name": "easing-out-cubic"
+        "name": "easing-linear"
     },
     "$handling": false,
-    "$ending": {
-
-        "type": "snippets",
-        "scope": "common",
-        "name": "handle-forces-ending"
-    },
+    "$ending": false,
     "elapsed": 0
 }

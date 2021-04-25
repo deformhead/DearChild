@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{169:function(n){n.exports={x:0,y:32,duration:120,$easing:{type:"snippets",scope:"common",name:"easing-in-cubic-follow"},$handling:!1,$ending:!1,elapsed:0}}}]);
+//# sourceMappingURL=12.index.js.map

@@ -1,0 +1,14 @@
+{
+    "x": 0,
+    "y": 32,
+    "duration": 120,
+    "$easing": {
+
+        "type": "snippets",
+        "scope": "common",
+        "name": "easing-in-cubic-follow"
+    },
+    "$handling": false,
+    "$ending": false,
+    "elapsed": 0
+}

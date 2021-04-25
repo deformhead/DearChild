@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{185:function(e){e.exports={$source:{type:"images",scope:"demo",name:"character-sad-64x64"},frames:[[0,0,64,64],[1,0,64,64],[2,0,64,64],[3,0,64,64]],frame:0,framerate:4,destination:[0,0,0,64,64],opacity:1,elapsed:0}}}]);
+//# sourceMappingURL=28.index.js.map

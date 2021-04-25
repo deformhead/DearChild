@@ -1,0 +1,242 @@
+[
+    {
+        "name": "demo-03-cliff-ground",
+        "entity": {
+
+            "scope": "demo",
+            "name": "03-cliff-ground"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 1920,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "demo-03-cliff-frontlight",
+        "entity": {
+
+            "scope": "demo",
+            "name": "03-cliff-frontlight"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 1920,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "demo-03-cliff-trigger-text",
+        "entity": {
+
+            "scope": "demo",
+            "name": "03-cliff-trigger-text"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 1456,
+                    "y": 32,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "cliff-hitbox-a",
+        "entity": {
+
+            "scope": "demo",
+            "name": "hitbox-8x1"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 1568,
+                    "y": 80,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "cliff-hitbox-b",
+        "entity": {
+
+            "scope": "demo",
+            "name": "hitbox-1x1"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 1710,
+                    "y": 80,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "cliff-hitbox-c",
+        "entity": {
+
+            "scope": "demo",
+            "name": "hitbox-2x1"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 1758,
+                    "y": 112,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "cliff-hitbox-d",
+        "entity": {
+
+            "scope": "demo",
+            "name": "hitbox-1x1"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 1774,
+                    "y": 144,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "cliff-hitbox-e",
+        "entity": {
+
+            "scope": "demo",
+            "name": "hitbox-2x1"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 1790,
+                    "y": 176,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "cliff-hitbox-f",
+        "entity": {
+
+            "scope": "demo",
+            "name": "hitbox-2x1"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 1822,
+                    "y": 208,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "cliff-hitbox-g",
+        "entity": {
+
+            "scope": "demo",
+            "name": "hitbox-2x1"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 1854,
+                    "y": 368,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "cliff-hitbox-h",
+        "entity": {
+
+            "scope": "demo",
+            "name": "hitbox-8x1"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 1982,
+                    "y": 400,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "cliff-hitbox-i",
+        "entity": {
+
+            "scope": "demo",
+            "name": "hitbox-2x1"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 2128,
+                    "y": 400,
+                    "z": 0
+                }
+            }
+        ]
+    }
+]

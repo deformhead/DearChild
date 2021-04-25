@@ -1,0 +1,42 @@
+[
+    {
+        "name": "demo-05-hospital-ground",
+        "entity": {
+
+            "scope": "demo",
+            "name": "05-hospital-ground"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 2880,
+                    "y": 320,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "demo-05-hospital-trigger-text",
+        "entity": {
+
+            "scope": "demo",
+            "name": "05-hospital-trigger-text"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 3008,
+                    "y": 352,
+                    "z": 0
+                }
+            }
+        ]
+    }
+]

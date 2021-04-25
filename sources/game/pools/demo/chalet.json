@@ -1,0 +1,46 @@
+[
+    {
+        "name": "demo-01-chalet-ground",
+        "entity": {
+
+            "scope": "demo",
+            "name": "01-chalet-ground"
+        }
+    },
+    {
+        "name": "demo-01-chalet-backlight",
+        "entity": {
+
+            "scope": "demo",
+            "name": "01-chalet-backlight"
+        }
+    },
+    {
+        "name": "demo-01-chalet-frontlight",
+        "entity": {
+
+            "scope": "demo",
+            "name": "01-chalet-frontlight"
+        }
+    },
+    {
+        "name": "demo-01-chalet-text-water-broke",
+        "entity": {
+
+            "scope": "demo",
+            "name": "01-chalet-text-water-broke"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 0,
+                    "y": 128,
+                    "z": 0
+                }
+            }
+        ]
+    }
+]

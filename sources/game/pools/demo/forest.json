@@ -1,0 +1,62 @@
+[
+    {
+        "name": "demo-02-forest-ground",
+        "entity": {
+
+            "scope": "demo",
+            "name": "02-forest-ground"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 960,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    {
+        "name": "demo-02-forest-backlight",
+        "entity": {
+
+            "scope": "demo",
+            "name": "02-forest-backlight"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 960,
+                    "y": 0,
+                    "z": -1
+                }
+            }
+        ]
+    },
+    {
+        "name": "demo-02-forest-trigger-text",
+        "entity": {
+
+            "scope": "demo",
+            "name": "02-forest-trigger-text"
+        },
+        "components": [
+
+            {
+                "name": "position",
+                "parameters": {
+
+                    "x": 496,
+                    "y": 32,
+                    "z": 0
+                }
+            }
+        ]
+    }
+]

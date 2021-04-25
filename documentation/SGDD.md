@@ -1,6 +1,6 @@
-# LD48.xxx - Short Game Design Document
+# LD48.DearChild - Short Game Design Document
 
-> *This document is a quick overview of the game design decisions of the game LD48.xxx (this is a short version of the usual Game Design Document).*
+> *This document is a quick overview of the game design decisions of the game LD48.DearChild (this is a short version of the usual Game Design Document).*
 
 ## Story
 
