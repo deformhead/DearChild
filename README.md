@@ -12,6 +12,10 @@ I challenged myself creating this game in only 24h instead of the regular 48h !
 
 It's more of a narrative experience than a game and I enjoyed working on it !
 
+Rules :
+
+- Use the `ARROW_RIGHT` key to move.
+
 This was my third Game Jam, so I hope you'll like this game. Thank you for your support.
 
 [Play to DearChild](https://deformhead.github.io/LD48.DearChild/index.html)
