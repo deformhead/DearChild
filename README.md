@@ -2,7 +2,7 @@
 
 # LD48.DearChild
 
-![DearChild](./docs/preview.png)
+![DearChild](./documentation/preview.png)
 
 Welcome ! [DearChild](https://deformhead.github.io/LD48.DearChild/index.html) ([Ludum Dare 48 Theme: Deeper and deeper](https://ldjam.com/events/ludum-dare/48/ld48-dearchild)) is built in plain HTML5/JavaScript with a framework I am developping.
 
@@ -10,7 +10,7 @@ I challenged myself creating this game in only 24h instead of the regular 48h !
 
 ## Overview
 
-This is a narrative experience more than a game that I enjoyed working on !
+It's more of a narrative experience than a game and I enjoyed working on it !
 
 This was my third Game Jam, so I hope you'll like this game. Thank you for your support.
 
